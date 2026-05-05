@@ -18,7 +18,8 @@ await prg.keybinds_register(
         first.color = { _: "Color", r: 0, g: 0, b: 0, a: 0 };
       } else {
         await first.rename(`✅ ${text}`);
-        first.color = { _: "Color", r: 0, g: 98, b: 76 };
+        // 52, 103, 53
+        first.color = { _: "Color", r: 52, g: 103, b: 53 };
       }
     }
   }),
@@ -38,11 +39,11 @@ await prg.keybinds_register(
     if (text && color) {
       if (text.startsWith("❌ ")) {
         await first.rename(text.slice(2));
-        // 192, 31, 36
         first.color = { _: "Color", r: 0, g: 0, b: 0, a: 0 };
       } else {
         await first.rename(`❌ ${text}`);
-        first.color = { _: "Color", r: 192, g: 31, b: 36 };
+        // 53, 12, 14
+        first.color = { _: "Color", r: 52, g: 12, b: 14 };
       }
     }
   }),
