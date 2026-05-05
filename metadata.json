@@ -1,0 +1,10 @@
+{
+ "version": "2.0.0",
+  "extension": {
+    "id": "text-node-todolist",
+    "name": "文本节点 TODO List",
+    "description": "把文本节点视为待办任务，通过快捷键改变任务状态",
+    "version": "1.0.0",
+    "author": "ayue"
+  }
+}
